@@ -1,0 +1,43 @@
+@charset "utf-8";
+#main {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-color: #CFF;
+	width: 947px;
+}
+
+
+#imagebtnwrapper {
+	background-color: #66F;
+	position: relative;
+	width: 227px;
+	float: right;
+	margin-left: 20px;
+	height: 600px;
+	overflow-y: auto;
+}
+.imagebtn {
+	height: 135px;
+	width: 210px;
+	margin-bottom: 20px;
+	position: relative;
+	float: left;
+}
+
+#imagewrapper {
+	position: relative;
+	height: 600px;
+	width: 700px;
+	background-color: #09C;
+	float: right;
+}
+
+#images {
+	float: right;
+	position: relative;
+}
+
+.fixer {
+	clear: both;
+}

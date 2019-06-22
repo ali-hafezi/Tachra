@@ -1,0 +1,139 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="طراحی نما,تچرا,tachra,طراحان نما,معماری,مهندسان معماری تچرا">
+<script src="scripts/engine/jquery.min.js"></script>
+<script type='text/javascript' src='scripts/engine/jquery.min.v1.3.2.js'></script>
+<link rel="stylesheet" href="Style/queryLoader.css" type="text/css" />
+<script type='text/javascript' src='scripts/load/queryLoader.js'></script>
+
+<link href="style/reset.css" rel="stylesheet" type="text/css">
+<link href="Style/style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="images/base/favicon.png" type="image/png" sizes="16x16">
+
+
+<script src="scripts/design/pagescripts.js"></script>
+
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
+<script type="text/javascript" src="scripts/map/design-map.js"></script>
+
+<script type="text/javascript" src="scripts/load/project-load.js"></script>
+
+<title>طراحی نما تچرا : tachra</title>
+
+</head>
+
+<body id="mainbody" onLoad="loadpage()">
+<!--gallery wrapper-->
+<div id="blackpage" onClick="showgallery('none',this.id,0)">
+  <div id="gallery-holder">
+    <div id="gallery-wrapper" onClick="showgallery('block',this.id,0)">
+      <div id="gallery">
+        <div id="btn-wrapper"></div>
+        <div id="image-wrapper"></div>
+        <div class="fixer"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end of gallery wrapper-->
+<div id="sitewrapper">
+   <!--menu wrapper-->
+    <div id="menuwrapper">
+     <!--menu bar-->
+      <div id="menubar">
+        <div id="logo">
+        <h1>تچرا</h1>
+        <h1>tachra</h1>
+        <h1>مهندسان مشاور معماری و شهرسازی</h1>
+        </div>    
+        <ul>
+    <li style="border-bottom-width:1px"><a style="top:0px;" id="1"><h2>صفحه اصلی</h2><h2 style="margin-bottom:0px;">صفحه اصلی</h2></a></li>
+            <li><a id="2"><h2>پروژه ها</h2><h2 style="margin-bottom:0px;">پروژه ها</h2></a></li>
+           <li> <a id="3"><h2>درباره ما</h2><h2 style="margin-bottom:0px;">درباره ما</h2></a></li>
+            <li><a id="4"><h2>ارتباط با ما</h2><h2 style="margin-bottom:0px;">ارتباط با ما</h2></a></li>
+          </ul> 
+      </div>   
+     <!--end of menu bar--> 
+  </div>
+   <!--end of menu wrapper-->
+   <!--context wrapper-->
+    <div id="contextwrapper">
+      <div id="railwrapper">
+        <div id="rail">
+ <!--main page-->     
+  <div id="page1">
+   <div class="box">
+    <a id="pic1" onClick="coverchange(this.id)"><img src="images/project/13/btn0.jpg" width="210" height="135"></a>
+   </div>
+   <div class="box">
+    <a id="pic2" onClick="coverchange(this.id)"><img src="images/project/15/btn0.jpg" width="210" height="135"></a>
+   </div>
+   <div class="box" style="margin-bottom:0px;">
+    <a id="pic3" onClick="coverchange(this.id)"><img src="images/project/14/btn0.jpg" width="210" height="135"></a>
+   </div>
+  </div>
+ <!--end of main page-->
+ 
+ <!--project page-->
+  <div id="page2">
+   <h6>پروژه ها</h6>
+   <div id="projectwrapper"> </div>
+  </div>
+ <!--end of project page-->
+ 
+ <!--about us-->
+  <div id="page3">
+    <h6>درباره ما</h6>
+      <p>معماری مفهومی بسیار گسترده,عمیق و پیچیده است;که تنها دربازه زمانی آن قابل فهم و درک می باشد.</p>
+      <p>مفهومی بسیار مهم که با بررسی آن می توان به خصوصیات آن بازه زمانی پی برد, اعتلای معماری این مرزوبوم آرزویی بزرگ می باشد که در سایه مدیریت نیروها قابل دسترس است و سهمی هر چند کوچک در این مسیر قابل ستایش می باشد.</p>
+      <p>مهندسین مشاور تچرا طرح تحت عنوان گروه معماری زیگورات از سال 82 فعالیت خود را آغاز کرد.</p>
+      <p>در سال 92 ,  در راستای بالا بردن کیفیت تمرکز و مدیریت نیروها اقدام به تاسیس مهندسان مشاور نمود تا در مسیر اعتلای این مرزوبوم گام بردارد.</p>
+      <p>این مهندسان مشاور در جهت دستیابی به معماری مدرن , پیشرو و مرتبط با معماری گذشته ایران و در راستای ارتقا سطح طراحی و ساخت ابنیه از سان جوان وخلاق در کنار مهندسان با تجربه در گروه های تخصصی مهندسی تشکیل شده.</p>
+  </div>
+ <!--end of about us-->
+
+ <!--contact us-->
+  <div id="page4">
+   <h6>ارتباط با ما</h6>
+   <div id="map_addresses"></div>
+   
+   <!--address and phone wrapper-->
+   <div id="addrphonewrapper">
+    <address><p> تهران , گیشا,<br>خیابان نهم شماره 156</p></address>
+    <div id="phonewrapper">
+     <p>تلفن: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02188249386</p>
+     <p>تلفکس: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02188249377</p>
+     <p>ایمیل: info@tachraarch.com</p>
+    </div>
+    <div class="fixer"></div>
+   </div>
+  <!--end of address and phone wrapper-->
+  
+  <h6></h6>
+  <!--form-->
+  <div id="formwrapper">
+   <div id="threeforms"></div>
+   <div id="oneform"></div>
+   <div class="fixer"></div>
+  </div>
+  <div id="btnwrapper"></div>
+  <div class="fixer"></div>
+  <!--end of form-->
+  </div>
+ <!--end of contact us-->
+        </div>
+      </div>
+    </div>
+   <!--end of context wrapper-->
+   <div class="fixer"></div>
+  </div>
+  
+<div class="fixer"></div>
+<script type='text/javascript'>
+    QueryLoader.init();
+</script>
+</body>
+</html>

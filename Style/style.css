@@ -1,0 +1,372 @@
+@charset "utf-8";
+html {
+	height: 100%;
+	min-height: 750px;
+	direction: rtl;
+}
+body{
+	background-attachment: fixed;
+	background-image: url(../images/cover/pic1.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 100%;
+	min-height: 750px;
+	background-color: transparent;
+	background-size: cover;
+	background-origin: content-box;
+}
+#sitewrapper {
+	position: relative;
+	width: 780px;
+	height: 100%;
+	min-height: 750px;
+	float: right;
+	background-color: transparent;
+	z-index: 1;
+}
+#menuwrapper {
+	position: relative;
+	width: 220px;
+	height: 100%;
+	min-height: 750px;
+	float: right;
+	background-color: transparent;
+	background-image: url(../images/base/bg1.png);
+	background-repeat: repeat-y;
+}
+#menubar {
+	width: 177px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 60px;
+	position: relative;
+}
+#logo {
+	background-color: transparent;
+	background-image: url(../images/base/logo.png);
+	background-repeat: no-repeat;
+	height: 141px;
+	width: 177px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+#logo h1 {
+	visibility: hidden;
+}
+
+#menubar ul {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 90px;
+	line-height: 2.5em;
+	font-size: 14px;
+	text-align: right;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	overflow: hidden;
+	min-height: 160px;
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0px;
+}
+#menubar ul li {
+	position: relative;
+	width: 90px;
+	height: 40px;
+	overflow: hidden;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #575656;
+	text-align: center;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+#menubar ul li a {
+	position: absolute;
+	height: 120px;
+	width: 90px;
+	top: -80px;
+	display: block;
+	left: 0px;
+}
+#menubar ul li a h2 {
+	display: block;
+	height: 40px;
+	width: 90px;
+	margin-bottom: 40px;
+	position: relative;
+	font-size: 14px;
+}
+a :hover{
+cursor:pointer;	
+}
+
+#contextwrapper {
+	float: right;
+	position: relative;
+	width: 240px;
+	background-color: transparent;
+	background-image: url(../images/base/bg2.png);
+	background-repeat: repeat;
+	height: 100%;
+	min-height: 750px;
+}
+#railwrapper {
+	width: 100%;
+	padding-top: 110px;
+	position: relative;
+}
+#rail {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 560px;
+	direction: rtl;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+}
+
+
+
+.fixer {
+	clear: both;
+}
+#page1 {
+	position: absolute;
+	height: 522px;
+	width: 240px;
+	padding-top: 8px;
+}
+.box {
+	height: 135px;
+	width: 210px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-bottom: 69px;
+}
+#page2 {
+	position: absolute;
+	height: 560px;
+	width: 480px;
+	left: 550px;
+}
+#page3 {
+	position: absolute;
+	height: 560px;
+	width: 480px;
+	left: 550px;
+}
+#page4 {
+	position: absolute;
+	height: 560px;
+	width: 480px;
+	left: 550px;
+}
+/*page 4*/
+ h6 {
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: right;
+	padding-right: 0px;
+	margin: 0px;
+	padding-bottom: 20px;
+	font-size: 24px;
+}
+#map_addresses {
+	position: relative;
+	height: 196px;
+	width: 460px;
+	margin-bottom: 30px;
+}
+#addrphonewrapper {
+	height: 52px;
+	width: 460px;
+	position: relative;
+	margin-bottom: 20px;
+}
+#formwrapper {
+	height: 120px;
+	width: 460px;
+	margin-right: 20px;
+	position: relative;
+}
+#threeforms {
+	float: right;
+	height: 120px;
+	width: 240px;
+	position: relative;
+}
+#oneform {
+	float: left;
+	height: 120px;
+	width: 200px;
+	position: relative;
+}
+#btnwrapper {
+	float: left;
+	height: 40px;
+	width: 100px;
+	margin-left: 40px;
+	position: relative;
+}
+address {
+	float: right;
+	width: 240px;
+	position: relative;
+	height: 52px;
+	text-align: right;
+}
+p {
+	text-align: justify;
+	font-size: 16px;
+	line-height: 1.7em;
+	margin: 0px;
+}
+
+#phonewrapper {
+	float: left;
+	height: 52px;
+	width: 220px;
+	position: relative;
+}
+
+/*page 4*/
+/*page 2*/
+#projectwrapper {
+	overflow-y: auto;
+	position: relative;
+	height: 500px;
+	width: 480px;
+	
+}
+.boxes {
+	float: right;
+	height: 225px;
+	width: 210px;
+	position: relative;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.boxes img {
+	margin-bottom: 20px;
+}
+.boxes h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+.boxes h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+.boxes h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+}
+/*page 2*/
+/*gallery*/
+#blackpage {
+	background-color: transparent;
+	background-image: url(../images/base/bg3.png);
+	background-repeat: repeat;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	right: 0px;
+	top: 0px;
+	min-height: 750px;
+	min-width: 1098px;
+	display: none;
+	z-index: 100;
+}
+
+#gallery-holder {
+	background-color: transparent;
+	padding: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: 650px;
+	width: 998px;
+}
+
+#gallery-wrapper {
+	background-color: #FFF;
+	position: relative;
+	width: 974px;
+	height: 616px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	border: 2px solid #a1a1a1;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+}
+#gallery {
+	position: relative;
+	height: 616px;
+	width: 974px;
+}
+#btn-wrapper {
+	float: right;
+	height: 616px;
+	width: 234px;
+	position: relative;
+	margin-left: 20px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	direction: ltr;
+}
+
+.btn {
+	position: relative;
+	float: left;
+	height: 135px;
+	width: 210px;
+	margin-bottom: 20px;
+	border: 2px solid #a1a1a1;
+	cursor: pointer;
+	cursor: hand;
+	overflow: hidden;
+}
+#image-wrapper {
+	float: left;
+	height: 616px;
+	width: 720px;
+	position: relative;
+	background-color: #CCC;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	-moz-border-top-left-radius: 25px; /* Old Firefox */
+	-moz-border-bottom-left-radius: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.fixer {
+	clear: both;
+}
+
+/*gallery*/
+/*/*/
+a img:hover{
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+
+}
